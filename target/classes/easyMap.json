@@ -1,0 +1,124 @@
+{
+    "targetRoom": 4,
+
+    "northWalls":[
+        {
+            "type":"painting",
+            "isThereKey":true,
+            "keyName":"chest3"
+        },
+        {
+            "type":"painting",
+            "isThereKey":true,
+            "keyName":"door2.4"
+        },
+        {
+            "type":"door",
+            "keyName":"door1.3",
+            "isOpen":true
+        },
+        {
+            "type":"door",
+            "keyName":"door2.4",
+            "isOpen":true
+        }
+    ],
+
+    "southWalls": [
+        {
+            "type":"door",
+            "keyName":"door1.3",
+            "isOpen":false
+        },
+        {
+            "type":"door",
+            "keyName":"door2.4",
+            "isOpen":false
+        },
+        {
+            "type":"chest",
+            "keyName":"chest3",
+            "isOpen":false,
+            "keys":["door3.4"],
+            "isThereFlashlight":true,
+            "golds":20
+        },
+        {
+            "type":"plain"
+        }
+    ],
+
+    "eastWalls":[
+        {
+            "type":"door",
+            "keyName":"door1.2",
+            "isOpen":false
+        },
+        {
+            "type":"plain"
+        },
+        {
+            "type":"door",
+            "keyName":"door3.4",
+            "isOpen":false
+        },
+        {
+            "type":"plain"
+        }
+    ],
+
+    "westWalls":[
+        {
+            "type": "seller",
+            "items": [
+                {"itemName":"door1.2","price":10},
+                {"itemName":"door1.3","price":10},
+                {"itemName":"flashlight","price":5}
+            ]
+        },
+        {
+            "type":"door",
+            "keyName":"door1.2",
+            "isOpen":true
+        },
+        {
+            "type":"plain"
+        },
+        {
+            "type":"door",
+            "keyName":"door3.4",
+            "isOpen":true
+        }
+    ],
+
+    "roomsLightStatus":[
+        true,
+        true,
+        true,
+        true
+    ],
+
+    "northAdjacentRooms":[0,0,1,2],
+    "southAdjacentRooms":[3,4,0,0],
+    "eastAdjacentRooms" :[2,0,4,0],
+    "westAdjacentRooms" :[0,1,0,3],
+
+    "playerInfo":{
+        "position": 1,
+        "goldsWithPlayer":20,
+        "direction":"north",
+        "keysWithPlayer":[],
+        "hasFlashLight":false
+    }
+}
+
+
+
+        
+        
+               
+
+
+                
+
+

@@ -1,0 +1,229 @@
+{
+  "targetRoom": 6,
+  "northWalls":[
+    {
+      "type":"painting",
+      "isThereKey":false,
+      "keyName":""
+    },
+    {
+      "type":"mirror",
+      "isThereKey":true,
+      "keyName":"door2.5"
+    },
+    {
+      "type":"painting",
+      "isThereKey":true,
+      "keyName":"door5.4"
+    },
+    {
+      "type":"mirror",
+      "isThereKey":true,
+      "keyName":"door4.7"
+    },
+    {
+      "type":"door",
+      "keyName":"door2.5",
+      "isOpen":true
+    },
+    {
+      "type":"plain"
+    },
+    {
+      "type":"door",
+      "keyName":"door4.7",
+      "isOpen":true
+    },
+    {
+      "type":"door",
+      "keyName":"door5.8",
+      "isOpen":true
+    },
+    {
+      "type":"door",
+      "keyName":"door9.6",
+      "isOpen":false
+    }
+  ],
+
+  "southWalls": [
+    {
+      "type": "seller",
+      "items": [
+        {"itemName":"chest3","price":10},
+        {"itemName":"flashlight","price":5}
+      ]
+    },
+    {
+      "type":"door",
+      "keyName":"door2.5",
+      "isOpen":false
+    },
+    {
+      "type":"mirror",
+      "isThereKey":false,
+      "keyName":""
+    },
+    {
+      "type":"door",
+      "keyName":"door4.7",
+      "isOpen":false
+    },
+    {
+      "type":"door",
+      "keyName":"door5.8",
+      "isOpen":false
+    },
+    {
+      "type":"door",
+      "keyName":"door9.6",
+      "isOpen":true
+    },
+    {
+      "type":"mirror",
+      "isThereKey":false,
+      "keyName":""
+    },
+    {
+      "type":"plain"
+    },
+    {
+      "type":"mirror",
+      "isThereKey":false,
+      "keyName":""
+    }
+  ],
+
+  "eastWalls":[
+    {
+      "type":"door",
+      "keyName":"door1.2",
+      "isOpen":false
+    },
+    {
+      "type":"door",
+      "keyName":"door2.3",
+      "isOpen":false
+    },
+    {
+      "type":"chest",
+      "keyName":"chest3",
+      "isOpen":false,
+      "keys":["door5.8","chest4"],
+      "isThereFlashlight":true,
+      "golds":10
+    },
+    {
+      "type":"door",
+      "keyName":"door4.5",
+      "isOpen":false
+    },
+    {
+      "type":"painting",
+      "isThereKey":true,
+      "keyName":"door2.3"
+    },
+    {
+      "type":"plain"
+    },
+    {
+      "type":"door",
+      "keyName":"door7.8",
+      "isOpen":false
+    },
+    {
+      "type":"door",
+      "keyName":"door8.9",
+      "isOpen":false
+    },
+    {
+      "type":"painting",
+      "isThereKey":false,
+      "keyName":""
+    }
+  ],
+
+  "westWalls":[
+    {
+      "type":"mirror",
+      "isThereKey":true,
+      "keyName":"door1.2"
+    },
+    {
+      "type":"door",
+      "keyName":"door1.2",
+      "isOpen":true
+    },
+    {
+      "type":"door",
+      "keyName":"door2.3",
+      "isOpen":true
+    },
+    {
+      "type":"chest",
+      "keyName":"chest4",
+      "isOpen":false,
+      "keys":["door7.8","door9.6"],
+      "isThereFlashlight":false,
+      "golds":15
+    },
+    {
+      "type":"door",
+      "keyName":"door4.5",
+      "isOpen":true
+    },
+    {
+      "type":"plain"
+    },
+    {
+      "type":"painting",
+      "isThereKey":true,
+      "keyName":"door8.9"
+    },
+    {
+      "type":"door",
+      "keyName":"door7.8",
+      "isOpen":true
+    },
+    {
+      "type":"door",
+      "keyName":"door8.9",
+      "isOpen":true
+    }
+  ],
+
+  "roomsLightStatus":[
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    false
+  ],
+
+  "northAdjacentRooms":[0,0,0,0,2,0,4,5,6],
+  "southAdjacentRooms":[0,5,0,7,8,9,0,0,0],
+  "eastAdjacentRooms" :[2,3,0,5,0,0,8,9,0],
+  "westAdjacentRooms" :[0,1,2,0,4,0,0,7,8],
+  "playerInfo":{
+    "position": 1,
+    "goldsWithPlayer":15,
+    "direction":"east",
+    "keysWithPlayer":[],
+    "hasFlashLight":false
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
