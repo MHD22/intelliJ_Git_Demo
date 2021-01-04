@@ -11,6 +11,9 @@ public class test {
 
 
     }
+    public static void printWelcome(){
+        System.out.println("Welcome to my demo");
+    }
 
 }
 
